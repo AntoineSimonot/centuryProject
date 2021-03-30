@@ -8,7 +8,7 @@ use Bramus\Router\Router;
 // Create Router instance
 $router = new Router();
 var_dump("test");
-
+var_dump("test");
 $router->get('/account/login', '\App\Controller\UserController@showLogin');
 $router->post('/account/login', '\App\Controller\UserController@showLogin');
 $router->get('/account/registration', '\App\Controller\UserController@showRegistration');
