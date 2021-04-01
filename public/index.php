@@ -9,7 +9,7 @@ use Bramus\Router\Router;
 $router = new Router();
 var_dump("test");
 var_dump("test");
-
+var_dump("lol");
 var_dump("test5");
 
 $router->get('/account/login', '\App\Controller\UserController@showLogin');
