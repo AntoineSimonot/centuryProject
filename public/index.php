@@ -18,3 +18,4 @@ $router->get('/account/disconnect', '\App\Controller\UserController@disconnectEv
 var_dump("test");
 $router->run();
 var_dump("raeraeraerar");
+var_dump('testAntoine');
