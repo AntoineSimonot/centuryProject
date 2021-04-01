@@ -19,6 +19,11 @@ $router->post('/account/registration', '\App\Controller\UserController@showRegis
 $router->get('/account/disconnect', '\App\Controller\UserController@disconnectEvent');
 
 // $router->get('/test/{url}', '\App\Controller\UserController@testEvent');
-var_dump('ttttttt')
+var_dump("test");
 $router->run();
 var_dump("raeraeraerar");
+
+
+
+
+var_dump('TEST RINO');
