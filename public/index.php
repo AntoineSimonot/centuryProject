@@ -7,10 +7,7 @@ use Bramus\Router\Router;
 
 // Create Router instance
 $router = new Router();
-var_dump("test");
-var_dump("test");
 
-var_dump("test5");
 
 $router->get('/account/login', '\App\Controller\UserController@showLogin');
 $router->post('/account/login', '\App\Controller\UserController@showLogin');
@@ -21,3 +18,4 @@ $router->get('/account/disconnect', '\App\Controller\UserController@disconnectEv
 // $router->get('/test/{url}', '\App\Controller\UserController@testEvent');
 
 $router->run();
+var_dump("raeraeraerar");
